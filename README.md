@@ -8,16 +8,16 @@ Meghna is a free responsive one page business template built with HTML5/CSS3, Ja
 |:---:|:---:|:---:|
 | **Homepage**  | **Blogs**  | **Blog Details**  |
 
-👉🏻[View Live Preview](https://demo.themefisher.com/themefisher/bingo/)
+👉🏻[View Live Preview](https://demo.themefisher.com/meghna/)
 
 
 <!-- download -->
 ## Download And installation
 Download this template from any following options:
 
-* Download from [Github](https://github.com/themefisher/Bingo-Bootstrap-Business-Template/archive/master.zip)
-* Clone the repository: `git clone https://github.com/themefisher/Bingo-Bootstrap-Business-Template.git`
-* Download from [Themefisher](https://themefisher.com/products/bingo-bootstrap-business-template/)
+* Download from [Github](https://github.com/themefisher/Meghna-Responsive-Multipurpose-Parallax-HTML5-Template/archive/master.zip)
+* Clone the repository: `git clone https://github.com/themefisher/Meghna-Responsive-Multipurpose-Parallax-HTML5-Template.git`
+* Download from [Themefisher](https://themefisher.com/products/Meghna-Responsive-Multipurpose-Parallax-HTML5-Template/)
 
 
 <!-- installation -->
@@ -48,13 +48,13 @@ gulp
 ```
 After that, it will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved.
 
-👉🏻 [visit documentation](https://docs.themefisher.com/bingo/)
+👉🏻 [visit documentation](https://docs.themefisher.com/meghna/)
 
 
 <!-- reporting issue -->
 ## Reporting Issues
-We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing issues](https://github.com/themefisher/Bingo-Bootstrap-Business-Template/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/Bingo-Bootstrap-Business-Template/issues).
+We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing issues](https://github.com/themefisher/Meghna-Responsive-Multipurpose-Parallax-HTML5-Template/issues). It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/Meghna-Responsive-Multipurpose-Parallax-HTML5-Template/issues).
 
 <!-- support -->
 ## Technical Support or Questions (Paid)
@@ -64,7 +64,7 @@ If you have questions or need help integrating the product please [contact us](m
 ## License
 Copyright &copy; 2020 Designed & Developed by [Themefisher](https://themefisher.com)
 
-**Code License:** Released under the [MIT](https://github.com/themefisher/Bingo-Bootstrap-Business-Template/blob/master/LICENSE) license.
+**Code License:** Released under the [MIT](https://github.com/themefisher/Meghna-Responsive-Multipurpose-Parallax-HTML5-Template/blob/master/LICENSE) license.
 
 **Image license:** The images are only for demonstration purposes. They have their own licence, we don't have permission to share those image.
 
@@ -75,8 +75,6 @@ Some third-party plugins that we used to build this template. Please check their
 * **Jquery v3.5.1**: https://jquery.com/download/
 * **Google Fonts**: http://fonts.google.com/
 * **Animate CSS**: https://animate.style/
-* **Lightbox2**: https://lokeshdhakar.com/projects/lightbox2/
+* **Magnific Popup**: https://dimsemenov.com/plugins/magnific-popup/
 * **Filterizr**: https://yiotis.net/filterizr/
-* **jQuery Parallax**: https://ianlunn.co.uk/plugins/jquery-parallax/
-* **Slick**: https://kenwheeler.github.io/slick/
-* **Smooth Scroll**: https://github.com/cferdinandi/smooth-scroll/
+* **WOW js**: https://wowjs.uk/
