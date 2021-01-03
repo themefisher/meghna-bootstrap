@@ -1,0 +1,97 @@
+/*=================================================================
+  About us section
+==================================================================*/
+.about {
+  .block {
+    background: #242930;
+    padding: 30px;
+    border-bottom: 2px solid transparent;
+    transition: .5s all;
+    margin-bottom: 20px;
+
+    &:hover {
+      border-bottom: 2px solid $primary-color;
+    }
+
+    &:hover .icon-box {
+      transform: translateY(-10px);
+    }
+
+    .icon-box {
+      position: relative;
+      width: 160px;
+      height: 92.38px;
+      background-color: transparent;
+      margin: 46.19px auto 60px;
+      padding: 20px 0;
+      border-left: 2px solid $border-color;
+      border-right: 2px solid $border-color;
+      font-size: 50px;
+      transform: translateZ(0px);
+      transition-duration: 0.3s;
+      transition-property: transform;
+
+      &:after,
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        width: 113.14px;
+        height: 113.14px;
+        background-color: inherit;
+        left: 20.4315px;
+        transform: scaleY(0.5774) rotate(-45deg);
+      }
+
+      &:before {
+        top: -56.5685px;
+        border-top: 2px solid rgba(236, 239, 241, 0.07);
+        border-right: 2px solid rgba(236, 239, 241, 0.07);
+      }
+
+      &:after {
+        bottom: -56.5685px;
+        border-bottom: 2px solid rgba(236, 239, 241, 0.07);
+        border-left: 2px solid rgba(236, 239, 241, 0.07);
+      }
+
+      h3 {
+        color: #afbac4;
+      }
+
+    }
+
+  }
+
+}
+
+
+/*=================================================================
+  About us 2 section
+==================================================================*/
+.about-2 {
+  .content-block {
+    padding: 35px 40px;
+    @include tablet {
+      padding: 40px 15px;
+    }
+
+    .media {
+      .pull-left {
+        padding-right: 15px;
+      }
+
+      margin-top:25px;
+
+      i {
+        font-size: 30px;
+        color: $primary-color;
+      }
+
+      h4 {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+  }
+}

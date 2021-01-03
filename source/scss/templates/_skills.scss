@@ -1,0 +1,28 @@
+/*=================================================================
+  Our skills
+==================================================================*/
+.skill-bar {
+  p {
+    font-size:18px;
+    margin-bottom:0;
+    span {
+      font-style: italic;
+      font-size:30px;
+      color: rgba(187, 187, 187, 0.34);
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  .progress {
+    height:6px;
+    border-radius:0;
+    .progress-bar {
+      background: $primary-color;
+    }
+  }
+  li:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+

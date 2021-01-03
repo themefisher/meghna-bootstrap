@@ -1,0 +1,21 @@
+.logo {
+	margin-top: 10px;
+	display: inline-block;
+}
+.single-page-header {
+	background-image: url('../images/about/about-header.jpg');
+	background-size: cover;
+	padding:140px 0 70px;
+	text-align: center;
+	color:$light;
+	position: relative;
+	&:before {
+		background: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		content: '';
+		top:0;
+		right:0;
+		left:0;
+		bottom:0;
+	}
+}

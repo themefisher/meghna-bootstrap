@@ -1,0 +1,55 @@
+/*=================================================================
+  Services section
+==================================================================*/
+.service-block {
+  padding: 60px 20px;
+  border-left: 1px solid $border-color;
+  border-top: 1px solid $border-color;
+  margin-bottom: 40px;
+  box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
+  .service-icon {
+    margin-bottom: 10px;
+    font-size: 50px;
+  }
+}
+
+
+
+
+
+
+/*=================================================================
+  Services section 2
+==================================================================*/
+
+.service-2 {
+  .service-item {
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+    padding: 50px 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    &:hover {
+      box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
+      -webkit-box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
+    }
+    &:hover i {
+      background: $light;
+      color:$primary-color;
+    }
+    i {
+      font-size: 30px;
+      display: inline-block;
+      background: $primary-color none repeat scroll 0 0;
+      border-radius: 30px;
+      box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
+      color: #fff;
+      height: 55px;
+      line-height: 55px;
+      margin-bottom: 20px;
+      width: 55px;
+      -webkit-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+    }
+  }
+}

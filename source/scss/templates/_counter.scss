@@ -1,0 +1,29 @@
+/*=================================================================
+  Item counter section
+==================================================================*/
+
+
+.counters-item {
+  padding:25px 0;
+  margin-bottom:10px;
+  background: $section-bg;
+  i {
+    margin-bottom: 10px;
+    font-size: 40px;
+    display: inline-block;
+  }
+  span {
+    display: block;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px;
+  }
+  h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+
+}
+
+

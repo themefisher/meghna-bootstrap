@@ -1,0 +1,39 @@
+/*=================================================================
+  Latest Posts
+==================================================================*/
+
+
+.note {
+  background-color: $section-bg;
+  border: 1px solid #4e595f;
+}
+
+.post-block {
+  background-color: $section-bg; 
+  margin-bottom:10px;
+  .content {
+    padding: 20px;
+    h3 {
+      margin:0 0 6px;
+      font-size: 20px;
+      line-height: 1.5;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.note .media-wrapper {
+  border-bottom: 1px solid #4e595f;
+}
+
+
+
+.note .excerpt h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.all-post {
+  margin-top: 50px;
+}

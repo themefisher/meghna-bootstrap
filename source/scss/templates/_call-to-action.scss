@@ -1,0 +1,43 @@
+/*=================================================================
+ Call To Action 1
+==================================================================*/
+
+.call-to-action {
+  background-attachment: fixed;
+  h2 {
+    font-weight: 700;
+    color:#444;
+  }
+  p {
+    font-size:16px;
+    color:#666;
+  }
+  .btn-main {
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+/*=================================================================
+ Call To Action 2
+==================================================================*/
+
+.call-to-action-2 {
+  padding:100px 0;
+  background-image: url('../images/call-to-action/call-to-action-bg.jpg');
+  background-size: cover;
+  color: $light;
+  h2 {
+    line-height: 1.5;
+  }
+  p {
+    color: $light;
+  }
+  .btn-main {
+    margin-top: 20px;
+  }
+  
+}

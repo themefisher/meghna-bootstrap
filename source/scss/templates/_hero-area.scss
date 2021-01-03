@@ -1,0 +1,94 @@
+// http://wahabali.com/work/vation/images/slider/img-01.jpg
+.hero-area {
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  .block {
+    text-align: center;
+    z-index: 99;
+
+    .video-button {
+
+      a {
+        background: $white;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        border-radius: 50px;
+        line-height: 60px;
+        font-size: 20px;
+        margin-left: 3px;
+        color: $primary-color;
+      }
+    }
+
+    h1 {
+      font-size: 90px;
+      color: $white;
+      text-transform: capitalize;
+      font-weight: 700;
+      margin-bottom: 20px;
+
+      @include desktop {
+        font-size: 60px;
+      }
+      @include tablet {
+        font-size: 48px;
+      }
+    }
+
+    p {
+      color: $light;
+      font-size: 20px;
+      width: 70%;
+      margin: 0 auto;
+    }
+
+    .btn-transparent {
+      margin-top: 40px;
+      border-color: $white;
+      padding: 14px 50px;
+      font-size: 18px;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+.hero-video {
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay {
+  position: relative;
+
+  &::before {
+    content: '';
+    background: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+  }
+}
+
+.dark-bg {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}

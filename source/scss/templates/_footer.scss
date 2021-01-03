@@ -1,0 +1,85 @@
+
+
+/*=================================================================
+  Footer section
+==================================================================*/
+
+.social-icon {
+    padding: 60px 0 35px;
+    ul {
+        text-align: center;
+        li {
+            margin-bottom:4px;
+            &:hover a {
+                background-color: $primary-color;
+                transform: rotateY(0deg);
+            }
+            &:hover a i {
+                color: #fff;
+                opacity: 1;
+                filter: alpha(opacity=100);
+                  transform: rotateY(0deg);
+            }
+            a {
+                background-color: #26292e;
+                border:1px solid transparent;
+                display: block;
+                height: 70px;
+                width: 70px;
+                transform: rotateY(180deg);
+                transition: all 400ms ease-out 0s;
+                @include tablet {
+                    width: 55px;
+                    height: 55px;
+                }
+                i {
+                    color: #55606a;
+                    display: inline-block;
+                    font-size: 32px;
+                    line-height: 70px;
+                    margin: 0;
+                    opacity: 0.3;
+                    filter: alpha(opacity=30);
+                    transform: rotateY(180deg);
+                    transition: all 400ms ease-out 0s;
+                    @include tablet {
+                        line-height: 55px;
+                        font-size:25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+.copyright {
+    padding: 20px 0;
+    color: #fff;
+    img {
+        margin-bottom: 15px;
+    }
+    p {
+        margin-top:10px;
+    }
+}
+
+
+#scrollUp {
+    border: 1px solid #4e595f;
+    bottom: 15px;
+    color: #fff;
+    display: none;
+    padding: 8px 12px;
+    position: fixed;
+    right: 20px;
+    z-index: 600;
+}
+
+#scrollUp:hover {
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+}

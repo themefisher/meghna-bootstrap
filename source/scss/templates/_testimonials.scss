@@ -1,0 +1,110 @@
+/*=================================================================
+  Testimonial section
+==================================================================*/
+
+.testimonial {
+  &:before {
+    background: rgba(42, 48, 55, 0.7);
+  }
+}
+
+.client-info {
+  margin: 0 auto;
+  width: 55%;
+
+  @include desktop {
+    width: 75%;
+  }
+
+  @include tablet {
+    width: 90%;
+  }
+}
+
+.client-comment {
+  p {
+    color: #afbac4;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+}
+
+.client-thumb img {
+  border-radius: 50%;
+  margin: 0 auto;
+  max-width: 115px;
+  width: 100%;
+}
+
+.client-meta {
+  margin: 0 0 10px;
+
+  h3 {
+    margin: 15px 0 5px .0;
+  }
+
+  span {
+    font-size: 12px;
+  }
+}
+
+
+.owl-pagination,
+.owl-buttons {
+  text-align: center;
+}
+
+.owl-controls .owl-page {
+  display: inline-block;
+}
+
+.owl-controls .owl-page span {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  display: block;
+  height: 13px;
+  margin: 0 4px;
+  width: 13px;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.owl-controls .owl-page.active span,
+.owl-controls .owl-page:hover span {
+  background-color: $primary-color;
+  border: 2px solid transparent;
+}
+
+.our-clients {
+  margin: 30px 0 0;
+}
+
+#our-clietns .item img {
+  max-width: 150px;
+  width: 100%;
+}
+
+#our-clietns .owl-next,
+#our-clietns .owl-prev {
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 45px 0 0;
+  padding: 3px 15px;
+  position: relative;
+  text-align: center;
+}
+
+#our-clietns .owl-next i,
+#our-clietns .owl-prev i {
+  line-height: 34px;
+}
+
+#our-clietns .owl-prev {
+  margin-right: 15px;
+}
+
+#our-clients .item {
+  margin: 10px;
+}

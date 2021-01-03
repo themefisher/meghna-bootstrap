@@ -1,0 +1,174 @@
+    <!-- 
+    Essential Scripts
+    =====================================-->
+    
+       <!-- 
+    Essential Scripts
+    =====================================-->
+    
+    <!-- Main jQuery -->
+    <script src="js/vendor/jquery-3.1.1.js"></script>
+    <!-- Bootstrap 3.1 -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- Parallax -->
+    <script src="js/vendor/jquery.parallax-1.1.3.js"></script>
+    
+    <script src="js/vendor/jquery.appear.js"></script>
+
+    <script src="js/vendor/easyPieChart.js"></script>
+
+    <script src="js/vendor/jquery.easing-1.3.pack.js"></script>
+    
+    <script src="js/vendor/tweetie.min.js"></script>
+
+    <script src="js/vendor/jquery.nav.js"></script>
+    
+    <script src="js/vendor/jquery.nav.js"></script>
+
+    <script src="js/vendor/jquery.sticky.js"></script>
+    
+    <script src="js/vendor/wow.min.js"></script>
+
+    <script src="js/vendor/jquery.fitvids.js"></script>
+
+    <script src="js/vendor/grid.js"></script>
+    
+    <script src="js/vendor/jquery.countTo.js"></script>
+    
+    <!-- Google Map API -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+    <!-- lightbox -->
+    <script src="js/vendor/lightbox.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <!-- Portfolio Filtering -->
+    <script src="js/vendor/jquery.mixitup.js"></script>
+    <!-- Smooth Scroll js -->
+    <script src="js/vendor/smooth-scroll.min.js"></script>
+    
+    <script src="js/vendor/jquery.vide.min.js"></script>
+    <!-- Custom js -->
+    <script src="js/script.js"></script>
+
+      <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+    (Load Extensions only on Local File Systems ! 
+    The following part can be removed on Server for On Demand Loading) --> 
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script> 
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script> 
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script> 
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script> 
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script> 
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script> 
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script> 
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script> 
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script> 
+    <script type="text/javascript">
+    (function($) {
+      "use strict";
+          var tpj=jQuery;     
+          var revapi4;
+          tpj(document).ready(function() {
+            if(tpj("#rev_slider_4_1").revolution == undefined){
+              revslider_showDoubleJqueryError("#rev_slider_4_1");
+            }else{
+              revapi4 = tpj("#rev_slider_4_1").show().revolution({
+                sliderType:"standard",
+                jsFileLocation:"js/revolution-slider/js/",
+                sliderLayout:"fullwidth",
+                dottedOverlay:"none",
+                delay:9000,
+                navigation: {
+                  keyboardNavigation:"off",
+                  keyboard_direction: "horizontal",
+                  mouseScrollNavigation:"off",
+                  onHoverStop:"off",
+                  touch:{
+                    touchenabled:"on",
+                    swipe_threshold: 75,
+                    swipe_min_touches: 1,
+                    swipe_direction: "horizontal",
+                    drag_block_vertical: false
+                  }
+                  ,
+                  arrows: {
+                    style:"zeus",
+                    enable:true,
+                    hide_onmobile:true,
+                    hide_under:600,
+                    hide_onleave:true,
+                    hide_delay:200,
+                    hide_delay_mobile:1200,
+                    tmp:'<div class="tp-title-wrap">    <div class="tp-arr-imgholder"></div> </div>',
+                    left: {
+                      h_align:"left",
+                      v_align:"center",
+                      h_offset:30,
+                      v_offset:0
+                    },
+                    right: {
+                      h_align:"right",
+                      v_align:"center",
+                      h_offset:30,
+                      v_offset:0
+                    }
+                  }
+                  ,
+                  bullets: {
+                    enable:false,
+                    hide_onmobile:true,
+                    hide_under:600,
+                    style:"metis",
+                    hide_onleave:true,
+                    hide_delay:200,
+                    hide_delay_mobile:1200,
+                    direction:"horizontal",
+                    h_align:"center",
+                    v_align:"bottom",
+                    h_offset:0,
+                    v_offset:30,
+                    space:5,
+                    tmp:'<span class="tp-bullet-img-wrap">  <span class="tp-bullet-image"></span></span><span class="tp-bullet-title">{{title}}</span>'
+                  }
+                },
+                viewPort: {
+                  enable:true,
+                  outof:"pause",
+                  visible_area:"80%"
+                },
+                responsiveLevels:[1240,1024,778,480],
+                gridwidth:[1240,1024,778,480],
+                gridheight:[800,700,600,400],
+                lazyType:"none",
+                parallax: {
+                  type:"mouse",
+                  origo:"slidercenter",
+                  speed:2000,
+                  levels:[2,3,4,5,6,7,12,16,10,50],
+                },
+                shadow:0,
+                spinner:"off",
+                stopLoop:"off",
+                stopAfterLoops:-1,
+                stopAtSlide:-1,
+                shuffle:"off",
+                autoHeight:"off",
+                hideThumbsOnMobile:"off",
+                hideSliderAtLimit:0,
+                hideCaptionAtLimit:0,
+                hideAllCaptionAtLilmit:0,
+                debugMode:false,
+                fallbacks: {
+                  simplifyAll:"off",
+                  nextSlideOnWindowFocus:"off",
+                  disableFocusListener:false,
+                }
+              });
+            }
+          }); /*ready*/
+          })(jQuery);
+        </script> 
+<!-- Scroll Up --> 
+
+  </body>
+  </html>

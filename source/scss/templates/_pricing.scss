@@ -1,0 +1,51 @@
+/*=================================================================
+  Pricing section
+==================================================================*/
+.price-item {
+  border: 1px solid $border-color;
+  padding-bottom: 30px;
+  margin: 15px 0;
+}
+
+.price-title {
+  background-color: $section-bg;
+  padding: 30px 0 20px;
+
+  h3 {
+    color: $primary-color;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .value {
+    color: $primary-color;
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+.pricing li {
+  padding: 10px 0;
+
+  &:last-child {
+    border-bottom: 1px solid$border-color;
+    margin-bottom: 20px;
+  }
+
+  &:nth-child(2n) {
+    background-color: $section-bg;
+  }
+
+  .btn {
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+}

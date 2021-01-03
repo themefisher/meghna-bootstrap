@@ -1,0 +1,86 @@
+/*=================================================================
+  Our Team
+==================================================================*/
+.team-member {
+  background-color: $section-bg;
+  margin: 15px 0;
+
+  &:hover .mask {
+    cursor: pointer;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    transform: rotateY(0deg) scale(1, 1);
+  }
+}
+
+.member-photo {
+  overflow: hidden;
+  position: relative;
+
+  @include tablet {
+    text-align: center;
+  }
+
+  &:hover img {
+    transform: scale(1.2);
+  }
+
+  img {
+    transition: all 0.4s ease 0s;
+
+    @include tablet {
+      display: inline-block;
+    }
+  }
+
+  .mask {
+    background-color: rgba($primary-color, .7);
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition: all .5s ease-out 0s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+
+    ul {
+      text-align: center;
+      position: relative;
+      top: 125px;
+
+      li {
+        a {
+          border: 1px solid $white;
+          color: #fff;
+          display: block;
+          font-size: 20px;
+          height: 35px;
+          line-height: 35px;
+          text-align: center;
+          width: 35px;
+
+          &:hover {
+            background-color: $white;
+            color: $primary-color;
+            border: 1px solid transparent;
+          }
+        }
+      }
+    }
+  }
+}
+
+.member-meta {
+  padding: 15px;
+
+  h4 {
+    margin: 0 0 5px;
+  }
+
+  span {
+    font-size: 12px;
+  }
+}

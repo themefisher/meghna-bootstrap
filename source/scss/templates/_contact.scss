@@ -1,0 +1,81 @@
+// =================================================================
+  // Contact
+// ==================================================================
+.contact-us {
+  padding-top:50px;
+}
+.contact-form {
+  margin-bottom: 60px;
+  .form-control {
+    background-color: transparent;
+    border: 1px solid $border-color;
+    height: 45px;
+  }
+  textarea.form-control {
+    padding: 10px;
+    height: 120px;
+  }
+}
+
+
+
+.contact-form input:hover, 
+.contact-form textarea:hover,
+#contact-submit:hover {
+    border-color: $primary-color;
+}
+
+#contact-submit {
+  border: 1px solid $border-color;
+  background: $primary-color;
+  padding: 12px 0;
+  width: 100%;
+  margin: 0;
+}
+
+.google-map {
+  #map_canvas {
+    height:400px;
+  }
+}
+
+
+.contact-info p {
+  margin-bottom: 25px;
+}
+
+.con-info {
+    margin-bottom: 20px;
+}
+
+.con-info i,
+.con-info span {
+    float: left;
+}
+
+.con-info span {
+  margin: -5px 0 0 15px;
+}
+
+.error {
+    display: none;
+    padding: 10px;
+    color: #D8000C; 
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: #FFBABA;
+}
+
+.success {
+    background-color: #6cb670;
+    border-radius: 4px;
+    color: #fff;
+    display: none;
+    font-size: 13px;
+    padding: 10px;
+}
+
+#map {
+    height: 370px;
+    width: 100%;
+}

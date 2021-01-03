@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700');
+
+
+html {
+  background-color: #353b43;
+  color: #737f8a;
+}
+
+body {
+  background-color: #353b43;
+  font-family: $secondary-font;
+  color: #737f8a;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  font-family: $primary-font;
+  color: #afbac4;
+}
+
+p {
+  font-family: $primary-font;
+}
