@@ -5,21 +5,6 @@
  * GITHUB: https://github.com/themefisher/
  */
 
-/*
-THEME: Meghna | Responsive Multipurpose Parallax HTML5 Template
-VERSION: 1.0.0
-AUTHOR: Themefisher
-
-HOMEPAGE: https://themefisher.com/products/meghna-free-responsive-one-page-business-template/
-DEMO: https://demo.themefisher.com/meghna/
-GITHUB: https://github.com/themefisher/meghna-onepage-html5-business-template
-
-Get HUGO Version : https://gethugothemes.com/products/meghna-hugo-theme/
-
-WEBSITE: https://themefisher.com
-TWITTER: https://twitter.com/themefisher
-FACEBOOK: https://www.facebook.com/themefisher
-*/
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
@@ -968,7 +953,7 @@ a:hover {
 }
 .portfolio-block:before {
   transition: all 0.3s ease-in-out;
-  background: white;
+  background: rgb(255, 255, 255);
   opacity: 0;
   top: 20px;
   right: 20px;
@@ -1597,9 +1582,9 @@ a:hover {
 }
 
 .blog-icon {
-  border: 1px solid #6CB670;
+  border: 1px solid #6cb670;
   border-radius: 50%;
-  color: #6CB670;
+  color: #6cb670;
   display: inline-block;
   padding: 16px 20px;
 }
@@ -1685,7 +1670,7 @@ a:hover {
 }
 
 .post-meta a:hover {
-  color: #6CB670;
+  color: #6cb670;
 }
 
 .post-excerpt .more {
@@ -1699,7 +1684,7 @@ a:hover {
 }
 
 .post-excerpt .more a:hover {
-  background-color: #6CB670;
+  background-color: #6cb670;
   color: #fff;
 }
 
@@ -1721,7 +1706,7 @@ aside.widget {
 #search-submit {
   background: none;
   border: 0;
-  color: #C8C8CA;
+  color: #c8c8ca;
   display: block;
   font-size: 16px;
   height: 32px;
@@ -1739,7 +1724,7 @@ aside.widget {
 }
 
 .tab-post-nav {
-  background-color: #4A535A;
+  background-color: #4a535a;
 }
 
 .tab-post-nav li {
@@ -1748,8 +1733,8 @@ aside.widget {
 
 .tab-post-nav li.active a {
   border-top: 3px solid #6cb670;
-  background-color: #2F383D;
-  color: #6CB670;
+  background-color: #2f383d;
+  color: #6cb670;
 }
 
 .tab-pane.active .clearfix:first-child {
@@ -1785,7 +1770,7 @@ aside.widget {
 
 .categories > li:hover a {
   padding-left: 10px;
-  color: #6CB670;
+  color: #6cb670;
 }
 
 .categories > li:last-child {
@@ -1797,7 +1782,7 @@ aside.widget {
 }
 
 .widget-content .tag {
-  background-color: #2F383D;
+  background-color: #2f383d;
   color: #fff;
   display: inline-block;
   margin-bottom: 10px;
@@ -1806,7 +1791,7 @@ aside.widget {
 }
 
 .widget-content .tag:hover {
-  background-color: #6CB670;
+  background-color: #6cb670;
   color: #fff;
 }
 
@@ -1829,7 +1814,7 @@ aside.widget {
 }
 
 .post-pagination ul li.disabled a:hover {
-  background-color: #2E373C;
+  background-color: #2e373c;
   color: #9aa8b3;
 }
 
@@ -1842,7 +1827,7 @@ aside.widget {
 
 .post-pagination ul li a:hover,
 .post-pagination ul li.active a {
-  background-color: #6CB670;
+  background-color: #6cb670;
   color: #fff;
 }
 
@@ -1870,7 +1855,7 @@ blockquote {
 }
 
 .next-prev a:hover {
-  color: #6CB670;
+  color: #6cb670;
 }
 
 .prev-post i {
@@ -1940,8 +1925,9 @@ blockquote {
   overflow: hidden;
 }
 
-.author-comment cite a:hover, .replay:hover {
-  color: #6CB670;
+.author-comment cite a:hover,
+.replay:hover {
+  color: #6cb670;
   text-decoration: underline;
 }
 
@@ -1967,7 +1953,7 @@ blockquote {
 }
 
 #comment-form .form-control:hover {
-  border-color: #6CB670;
+  border-color: #6cb670;
 }
 
 .form-group:last-child,
